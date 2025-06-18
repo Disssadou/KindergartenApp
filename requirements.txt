@@ -1,0 +1,30 @@
+# FastAPI и сервер
+fastapi
+uvicorn[standard]
+python-multipart
+
+# База данных и ORM
+sqlalchemy
+sqlalchemy.orm
+psycopg2-binary   
+python-dotenv     
+alembic           # Для миграций БД 
+apscheduler
+
+# Pydantic 
+pydantic[email]   # Добавляем поддержку валидации email
+
+# Аутентификация и безопасность
+python-jose[cryptography] 
+passlib[bcrypt]           
+
+# Для отчетов и фото 
+reportlab
+openpyxl
+pandas
+pillow
+
+
+PyQt6
+requests
+cryptography

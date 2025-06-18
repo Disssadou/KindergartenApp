@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./" // Говорит Pylance искать модули также в текущей (корневой) папке
+    ],
+    "python.terminal.activateEnvironment": true, // Автоматически активировать окружение в терминале VS Code
+    "python.defaultInterpreterPath": ".venv\\Scripts\\python.exe" // Или .venv/bin/python для Linux/Mac (Укажи точный путь к python в твоем .venv)
+}
