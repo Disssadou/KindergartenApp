@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain> <!-- IP  локального сервера для эмулятора -->
+        <!--  на реальном устройстве, добавьте сюда IP вашего ПК в локальной сети -->
+        <!-- <domain includeSubdomains="true">192.168.1.100</domain> -->
+    </domain-config>
+    <!-- Можно добавить базовую конфигурацию для остальных доменов, если нужно -->
+    <!-- <base-config cleartextTrafficPermitted="false"> -->
+    <!--    <trust-anchors> -->
+    <!--        <certificates src="system" /> -->
+    <!--    </trust-anchors> -->
+    <!-- </base-config> -->
+</network-security-config>
